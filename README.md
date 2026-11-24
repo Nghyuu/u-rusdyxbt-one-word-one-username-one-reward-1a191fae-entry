@@ -4,12 +4,12 @@
 [![rank](https://make.fun/badge/u-rusdyxbt-one-word-one-username-one-reward-1a191fae/Nghyuu/u-rusdyxbt-one-word-one-username-one-reward-1a191fae-entry/rank.svg)](https://make.fun/bounty/u-rusdyxbt-one-word-one-username-one-reward-1a191fae/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-rusdyxbt-one-word-one-username-one-reward-1a191fae)
 [![reward](https://make.fun/badge/u-rusdyxbt-one-word-one-username-one-reward-1a191fae/Nghyuu/u-rusdyxbt-one-word-one-username-one-reward-1a191fae-entry/reward.svg)](https://make.fun/bounty/u-rusdyxbt-one-word-one-username-one-reward-1a191fae?utm_source=github&utm_medium=readme&utm_campaign=u-rusdyxbt-one-word-one-username-one-reward-1a191fae)
 
-This entry sends the entrant's own make.fun username, `hyu-ng`, as a single word with nothing else. The program copies `entry.txt` to the grader's output directory, unchanged and with no padding.
+This entry sends the entrant's own make.fun username, `hyu-ng`, as a single word to `/output/entry.txt` — one word, no explanation, no pitch — for the "One Word, One Username, One Reward" bounty.
 
 ## Run it
 
 ```sh
-MAKEFUN_OUTPUT_DIR=./output node main.ts
+MAKEFUN_OUTPUT_DIR=/tmp/out node main.ts
 ```
 
 ---
